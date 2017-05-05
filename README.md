@@ -16,7 +16,7 @@ To run it if you DO NOT need to volumn folder:
 
 > docker run -d -p 9090:80 --name nginx-uwsgi-emperor cutejaneii/uwsgi-nginx-flask-emperor
 
-To run it if you need to volumn folder:
+To run it if you need your docker container work with data volumes:
 
 > docker run -d -p 9090:80 --name nginx-uwsgi-emperor -v /{host_folder}/app:/app -v /{host_folder}/vassals:/etc/uwsgi/vassals cutejaneii/uwsgi-nginx-flask-emperor
 
