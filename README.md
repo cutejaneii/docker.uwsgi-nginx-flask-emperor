@@ -19,3 +19,11 @@ To run it if you DO NOT need to volumn folder:
 To run it if you need to volumn folder:
 
 > docker run -d -p 9393:80 --name nginx-uwsgi-emperor -v /{host_folder}/app:/app -v /{host_folder}/vassals:/etc/uwsgi/vassals cutejaneii/uwsgi-nginx-flask-emperor
+
+### How to test ? ###
+
+Open following urls from browser:
+
+http://yourIP:9090/test/    -- You will see the cotent: Hello, this is test 1~
+ 
+http://yourIP:9090/test2/   -- You will see the cotent: Hello, this is test 2~
