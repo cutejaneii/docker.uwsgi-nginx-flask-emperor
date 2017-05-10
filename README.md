@@ -1,4 +1,4 @@
-## docker.uwsgi-nginx-flask-emperor ##
+# docker.uwsgi-nginx-flask-emperor #
 
 Base on  **[tiangolo/uwsgi-nginx:python2.7](https://github.com/tiangolo/uwsgi-nginx-docker)**, we also installed following software into container for use.
 
@@ -6,11 +6,11 @@ Base on  **[tiangolo/uwsgi-nginx:python2.7](https://github.com/tiangolo/uwsgi-ng
 - nginx
 - flask
 
-### What this project do ? ###
+## What this project do ? ##
 
 To make multiple flask applications run at the same time, we modify nginx.conf and uwsgi config, and use emperor mode to monitor the folder (/etc/uwsgi/vassals) if any .ini files add/delete/modified.
 
-### Usage ###
+## Usage ##
 
 To run it if you DO NOT need to volumn folder:
 
@@ -24,10 +24,19 @@ To run it if you need your docker container work with data volumes:
   -v /{host_folder}/vassals:/etc/uwsgi/vassals \
   cutejaneii/docker.uwsgi-nginx-flask-emperor
 
-### How to test ? ###
+## How to test ? ##
 
 Open following urls from browser:
 
 http://yourIP:9090/test/    -- You will see the cotent: Hello, this is test 1~
  
 http://yourIP:9090/test2/   -- You will see the cotent: Hello, this is test 2~
+
+## How to deploy your flask application ? ##
+
+- Create a subfolder and put it into /app folder.
+- Put your python files into subfolder which you created.
+- Add .ini file for your application and put it into /vassals folder
+- Edit nginx.conf
+
+Remeber to RESTART YOUR CONTAINER!
