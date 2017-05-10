@@ -21,7 +21,7 @@ To run it if you need your docker container work with data volumes:
 > docker run -d -p 9090:80 --name nginx-uwsgi-emperor \
   -v /{host_folder}/nginx.conf:/etc/nginx/conf.d/nginx.conf \
   -v /{host_folder}/app:/app \
-  -v /{host_folder}/vassals:/etc/uwsgi/vassals \ 
+  -v /{host_folder}/vassals:/etc/uwsgi/vassals \
   cutejaneii/docker.uwsgi-nginx-flask-emperor
 
 ### How to test ? ###
