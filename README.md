@@ -8,7 +8,7 @@ Base on  **[tiangolo/uwsgi-nginx:python2.7](https://github.com/tiangolo/uwsgi-ng
 
 ## What this project do ? ##
 
-To make multiple flask applications run at the same time, we modify nginx.conf and uwsgi config, and use emperor mode to monitor the folder (/etc/uwsgi/vassals) if any .ini files add/delete/modified.
+To make multiple flask applications run at the same time, we modify nginx.conf and uwsgi config, and use **[emperor mode](http://uwsgi-docs.readthedocs.io/en/latest/Emperor.html)** to monitor the folder (/etc/uwsgi/vassals) if any .ini files add/delete/modified.
 
 ## Usage ##
 
