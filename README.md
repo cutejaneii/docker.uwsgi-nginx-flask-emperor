@@ -6,6 +6,22 @@ Base on  **[tiangolo/uwsgi-nginx:python2.7](https://github.com/tiangolo/uwsgi-ng
 - nginx
 - flask
 
+## Comparison between my repository ##
+
+To find the fittest repository by the following image.
+
+
+![](git-repository-comparison.png)
+
+Go to [cutejaneii/docker.uwsgi-nginx-flask-spark](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-spark)
+
+Go to [cutejaneii/docker.spark-cassandra.driver-supervisor](https://github.com/cutejaneii/docker.spark-cassandra.-driver-supervisor)
+
+Go to [cutejaneii/docker.uwsgi-nginx-flask-cassandra-spark-emperor](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-cassandra-spark-emperor)
+
+Go to [cutejaneii/docker.uwsgi-nginx-flask-emperor](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-emperor)
+
+
 ## What this project do ? ##
 
 To make multiple flask applications run at the same time, we modify nginx.conf and uwsgi config, and use **[emperor mode](http://uwsgi-docs.readthedocs.io/en/latest/Emperor.html)** to monitor the folder (/etc/uwsgi/vassals) if any .ini files add/delete/modified.
