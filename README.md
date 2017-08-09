@@ -11,16 +11,15 @@ Base on  **[tiangolo/uwsgi-nginx:python2.7](https://github.com/tiangolo/uwsgi-ng
 To find the fittest repository by the following image.
 
 
-![](git-repository-comparison.png)
+![](git-repository-comparison2.png)
 
 Go to [cutejaneii/docker.uwsgi-nginx-flask-spark](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-spark)
 
-Go to [cutejaneii/docker.spark-cassandra.driver-supervisor](https://github.com/cutejaneii/docker.spark-cassandra.-driver-supervisor)
+Go to [cutejaneii/spark-streaming-kafka-to-cassandra](https://github.com/cutejaneii/spark-streaming-kafka-to-cassandra)
 
-Go to [cutejaneii/docker.uwsgi-nginx-flask-cassandra-spark-emperor](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-cassandra-spark-emperor)
+Go to [cutejaneii/docker.nginx-cassandra-spark-emperor](https://github.com/cutejaneii/docker.nginx-cassandra-spark-emperor)
 
 Go to [cutejaneii/docker.uwsgi-nginx-flask-emperor](https://github.com/cutejaneii/docker.uwsgi-nginx-flask-emperor)
-
 
 ## What this project do ? ##
 
